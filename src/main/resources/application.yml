@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1/ecommerce
+    username: root
+    password:
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: mohamedlabnine1@gmail.com
+    password: tdmchmhqpxefkqaa
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
+
+  main:
+    allow-circular-references: false
+
